@@ -33,6 +33,57 @@ export default function IndexPage() {
                         <h2 className="index-page-section-two-header">Empowering and engaging with local communities in Calgary.</h2>
                         <p className="index-page-section-two-text">Sonaria is more than just than just an educational organization. We help support the communities around us with a rich and welcoming experience.</p>
                     </div>
+                    <div className="index-page-section-two-card-container">
+                        <div className="index-page-section-two-card-row border-bottom">
+                            <div className="index-page-section-two-card border-right">
+                                <div className="index-page-section-two-card-image-container">
+                                    <img src="/assets/room.webp" className="index-page-section-two-card-image"/>
+                                </div>
+                                <h3 className="index-page-section-two-card-header">Temp</h3>
+                                <p className='index-page-section-two-card-text'>Spicy and Sweet</p>
+                            </div>
+                            <div className="index-page-section-two-card">
+                                <div className="index-page-section-two-card-image-container">
+                                    <img src="/assets/room.webp" className="index-page-section-two-card-image"/>
+                                </div>
+                                <h3 className="index-page-section-two-card-header">Temp</h3>
+                                <p className='index-page-section-two-card-text'>Spicy and Sweet</p>
+                            </div>
+                        </div>
+                        <div className="index-page-section-two-card-row">
+                            <div className="index-page-section-two-card border-right">
+                                <div className="index-page-section-two-card-image-container">
+                                    <img src="/assets/room.webp" className="index-page-section-two-card-image"/>
+                                </div>
+                                <h3 className="index-page-section-two-card-header">Temp</h3>
+                                <p className='index-page-section-two-card-text'>Spicy and Sweet</p>
+                            </div>
+                            <div className="index-page-section-two-card">
+                                <div className="index-page-section-two-card-image-container">
+                                    <img src="/assets/room.webp" className="index-page-section-two-card-image"/>
+                                </div>
+                                <h3 className="index-page-section-two-card-header">Temp</h3>
+                                <p className='index-page-section-two-card-text'>Spicy and Sweet</p>
+                            </div>
+                        </div>
+                    </div>      
+                </div>
+            </div>
+            <div className="index-page-section-three">
+                <div className="index-page-section-three-content">
+                    <h2 className="index-page-section-three-header">Impact at a glance</h2>
+                    <h3 className="index-page-section-three-text">Sonaria has been able to aid many in their musical journey.</h3>
+                    <div className="index-page-section-three-content-container">
+                        <div className="index-page-section-three-stats-container">
+                            <div className="index-page-section-three-stat">
+                                <p className="index-page-section-three-stat-text">Students</p>
+                                <h3 className="index-page-section-three-stat-header">100+</h3>
+                            </div>
+                        </div>
+                        <div className="iindex-page-section-three-image-container">
+
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

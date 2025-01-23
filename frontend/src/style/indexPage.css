@@ -183,6 +183,7 @@
     text-align: center;
     display: flex;
     justify-content: flex-end;
+    color: black;
 }
 
 .index-page-section-two-text {
@@ -191,4 +192,71 @@
     color: rgb(110, 110, 110);
     text-align: center;
     text-wrap: wrap;
+}
+
+.index-page-section-two-card-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 8px;
+}
+
+.index-page-section-two-card-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+
+}
+
+.index-page-section-two-card {
+    display: flex;
+    flex-direction: column;
+    max-width: 496px;
+    width: 45%;
+    padding: 48px 32px;
+    padding-bottom: 48px;
+}
+
+.index-page-section-two-card-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 100%;
+}
+
+.index-page-section-two-card-image {
+    display: flex;
+    object-fit: cover;
+    max-width: 496px;
+    width: 100%;
+}
+
+.index-page-section-two-card-header {
+    font-size: 1.2em;
+    font-weight: 500;
+    margin-top: 16px;
+    color: black;
+}
+
+.index-page-section-two-card-text {
+    color: rgb(77, 76, 76);
+    margin-top: 4px;
+    margin-bottom: 16px;
+    text-wrap: wrap;
+}
+
+
+.border-right {
+    border-right-width: 1px;
+    border-style: solid;
+    border-color: rgb(221, 221, 221);
+}
+
+.border-bottom {
+    border-bottom-width: 1px;
+    border-style: solid;
+    border-color: rgb(221, 221, 221);
 }
