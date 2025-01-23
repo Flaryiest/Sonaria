@@ -1,0 +1,42 @@
+{
+    "name": "backend",
+    "version": "1.0.0",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "tsc",
+        "format": "prettier --write .",
+        "lint": "eslint .",
+        "lint:fix": "eslint . --fix",
+        "build-watch": "tsc -watch",
+        "watch": "node ./dist/index.js -watch",
+        "start": "node ./dist/index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "devDependencies": {
+        "@eslint/js": "^9.17.0",
+        "@types/express": "^5.0.0",
+        "@types/node": "^22.10.2",
+        "@types/pg": "^8.11.10",
+        "eslint": "^9.17.0",
+        "globals": "^15.14.0",
+        "prettier": "^3.4.2",
+        "typescript": "^5.7.2",
+        "typescript-eslint": "^8.18.2"
+    },
+    "dependencies": {
+        "@types/cookie-parser": "^1.4.8",
+        "@types/cors": "^2.8.17",
+        "bcryptjs": "^2.4.3",
+        "cookie-parser": "^1.4.7",
+        "cors": "^2.8.5",
+        "dotenv": "^16.4.7",
+        "express": "^4.21.2",
+        "jsonwebtoken": "^9.0.2",
+        "pg": "^8.13.1"
+    }
+}
