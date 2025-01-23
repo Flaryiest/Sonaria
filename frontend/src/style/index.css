@@ -121,17 +121,15 @@ table {
 }
 
 :root {
-    font-family: 'Inter Tight', 'Roboto', Inter, system-ui, Avenir, Helvetica,
+    font-family: 'Inter', 'Inter Tight', 'Roboto', Inter, system-ui, Avenir, Helvetica,
         Arial, sans-serif;
 
-    --primary-background-color: #f7f2f0;
-    --primary-text-color: #9c6875;
-    --secondary-color: #d8a49d;
-    --tertiary-color: #a8bc91;
-    --dashboard-background-color: #d7b88d;
-    --tag-background-color: #ffefd6;
-    --card-background-color: #e7d1d4;
-    --tag-text-color: #4e3620;
+    --primary-background-color:#ffffff;
+    --secondary-background-color:#ffe8e5;
+    --primary-text-color:#4f4f4f;
+    --secondary-text-color:#ae838e;
+    --primary-accent-color: #eabfb9;
+
     --sub-text-size: 0.75em;
     --main-text-size: 1em;
     --sub-header-text-size: 1.5em;
@@ -157,6 +155,8 @@ body {
 #root {
     margin: 0 0;
     width: 100vw;
+    box-sizing: border-box;
+    height: 100vh;
 }
 
 a {
