@@ -1,1 +1,2 @@
-# react-node-ts-template
+# Sonaria
+A non-profit music institution
