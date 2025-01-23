@@ -1,0 +1,34 @@
+.index-page-container {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.index-page {
+    width: 1024px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.index-page-section-one {
+    margin-top: 16px;
+    border-radius: 16px;
+    height: 630px;
+    background-image: 
+        linear-gradient(to bottom, rgba(230, 230, 230, 1), rgba(247, 247, 247, 1), rgba(243, 243, 243, 0.8),rgb(255, 250, 244), rgb(255, 250, 244), rgb(255, 246, 236), rgb(255, 241, 224));
+    
+}
+
+.grid {
+    position: fixed;
+    width: 1024px;
+    height: 630px;
+    background-image:
+        linear-gradient(to right, rgb(230, 230, 230) 1px, transparent 1px),
+        linear-gradient(to bottom, rgb(230, 230, 230) 1px, transparent 1px);
+    background-size: 80px 80px;
+    background-position: center center;
+}

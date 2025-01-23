@@ -149,14 +149,14 @@ body {
     margin: 0;
     display: flex;
     min-width: 320px;
-    min-height: 100vh;
+    min-height: 100dvh;
 }
 
 #root {
     margin: 0 0;
-    width: 100vw;
+    width: 100dvw;
     box-sizing: border-box;
-    height: 100vh;
+    height: 100dvh;
 }
 
 a {
