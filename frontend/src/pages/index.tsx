@@ -13,7 +13,7 @@ export default function IndexPage() {
                         <p className="index-page-section-one-text">Sonaria is a registered non-profit organization striving to make musical education meet with accessibility.</p>
                         <div className="index-page-section-one-buttons">
                             <Link to="/events" className="index-page-section-one-events-button">Events</Link>
-                            <Link to="/donate" className="index-page-section-one-donate-button">Donate</Link>
+                            <Link to="/donate" className="index-page-section-one-donate-button">Contact</Link>
                         </div>
                         <div className="index-page-section-one-image-container">
                             <img src="/assets/piano.webp" className="index-page-section-one-image"></img>

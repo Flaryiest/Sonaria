@@ -14,11 +14,11 @@ export default function Navbar() {
                 <div className={`navbar-links ${menuOpen ? 'open' : ''}`}>
                     <Link to="/info" className="navbar-base-link">Info</Link>
                     <Link to="/organization" className="navbar-base-link">Organization</Link>
-                    <Link to="/contact" className="navbar-base-link">Contact</Link>
+                    <Link to="/donate" className="navbar-base-link">Donate</Link>
                 </div>
                 <div className="navbar-onboard-links">
-                    <Link to="/login" className="navbar-login-link">Log in</Link>
-                    <Link to="/signup" className="navbar-signup-link">Sign up</Link>
+                    <Link to="/contact" className="navbar-login-link">Contact</Link>
+                    <Link to="/classes" className="navbar-signup-link">Classes</Link>
                 </div>
                 <div className="navbar-menu-icon" onClick={() => setMenuOpen(!menuOpen)}>
                     <svg width="24" height="24" viewBox="0 0 24 24">
