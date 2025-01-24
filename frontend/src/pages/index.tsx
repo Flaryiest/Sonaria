@@ -103,7 +103,16 @@ export default function IndexPage() {
                     <h2 className="index-page-section-four-header">Testimonies</h2>
                     <p className="index-page-section-four-text">We have worked with many people, and we hope to work with you in the future.</p>
                     <div className="index-page-section-four-card-container">
-                        <div className="index-page-section-four-card-row"></div>
+                        <div className="index-page-section-four-card-row">
+                            <div className="index-page-section-four-card">
+                                <div className="index-page-section-four-card-image-container">Piano</div>
+                                <p className="index-page-section-four-card-text">Lorem ipsum dolor sit amet, <span className="bold black">consectetur adipisicing elit.</span> Velit perferendis voluptas dolore debitis provident et aspernatur expedita fugit. Suscipit odit nostrum maxime repellat alias assumenda, eius optio harum non magni?</p>
+                                <div className="index-page-section-four-card-info">
+                                    <p className="index-page-section-four-card-name">Eric Zuo</p>
+                                    <p className="index-page-section-four-card-title">Student</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
