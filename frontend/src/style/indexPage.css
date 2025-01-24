@@ -521,3 +521,115 @@
     align-items: center;
     gap: 4px;
 }
+
+@media (max-width: 1024px) {
+    .index-page-section-two-card {
+        width: 30%;
+    }
+    .index-page-section-three-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        max-width: 800px;
+    }
+    .index-page-section-three-left {
+        width: 70%;
+        padding: 0px 32px;
+    }
+    .index-page-section-three-text {
+        width: 30ch;
+    }
+}
+
+@media (max-width: 920px) {
+    .index-page-section-four-card {
+        width: 36%;
+    }
+}
+
+
+@media (max-width: 800px) {
+    .index-page-section-two-card {
+        width: 25%;
+    }
+    .index-page-section-four-card-row {
+        width: 100%;
+        box-sizing: border-box;
+        flex-direction: column;
+        
+    }
+    .index-page-section-four-card {
+        width: 80%;
+        max-width: 480px;
+        padding: 24px 32px;
+    }
+}
+
+@media (max-width: 600px) {
+    
+    .index-page-section-one-header {
+        font-size: 1.8em;
+    }
+    .index-page-section-one-text {
+        font-size: 1.2em;
+        width: 34ch;
+    }
+    .index-page-section-two-header {
+        font-size: 1.6em;
+    }
+    .index-page-section-two-text {
+        font-size: 1.1em;
+        width: 36ch;
+    }
+    .index-page-section-two-card-row {
+        flex-wrap: wrap;
+        padding: 0px 32px;
+        align-items: center;
+        justify-content: center;
+    }
+    .index-page-section-two-card {
+        max-width: 496px;
+        width: 45%;
+    }
+    
+    .index-page-section-two-card-image-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }    
+    .index-page-section-two-card-image {
+        width: 90%;
+        margin-right: 32px;
+    }
+    .border-right {
+        border: none;
+    }
+
+    .index-page-section-three-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        max-width: 400px;
+    }
+    .index-page-section-three-left {
+        width: 100%;
+        padding: 0px 32px;
+    }
+    .index-page-section-three-text {
+        width: 30ch;
+    }
+
+    .index-page-section-four-text {
+        width: 30ch;
+    }
+    .index-page-section-four-card {
+        width: 80%;
+        max-width: 360px;
+        padding: 24px 32px;
+    }
+}
+
