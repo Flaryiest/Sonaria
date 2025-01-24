@@ -123,7 +123,7 @@ export default function IndexPage() {
                             </div>
                         </div>
                     </div>
-                    <div className="index-page-section-four-call-to-action">Are you a student? <span className="bold">Join Us</span> <img src="/assets/arrow-up-right.svg"></img></div>
+                    <div className="index-page-section-four-call-to-action">Are you a student? <Link to="/info" className="index-page-section-four-call-to-action-link"><span className="bold">Join Us</span> <img src="/assets/arrow-up-right.svg"></img></Link></div>
                 </div>
             </div>
             <Footer/>

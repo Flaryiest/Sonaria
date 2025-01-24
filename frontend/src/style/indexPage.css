@@ -514,3 +514,10 @@
     gap: 4px;
     font-size: 1.1em;
 }
+
+.index-page-section-four-call-to-action-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
