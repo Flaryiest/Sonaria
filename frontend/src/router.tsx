@@ -10,6 +10,7 @@ import InfoPage from './pages/info.tsx'
 import OrganizationPage from './pages/organization.tsx'
 import DonationPage from './pages/donation.tsx'
 import ContactPage from './pages/contact.tsx'
+import ClassesPage from './pages/classes.tsx'
 
 const router = createBrowserRouter(
     createRoutesFromElements(
@@ -20,6 +21,7 @@ const router = createBrowserRouter(
                 <Route path="/organization" element={<OrganizationPage />} />
                 <Route path="/contact" element={<ContactPage />} />
                 <Route path="/donate" element={<DonationPage />} />
+                <Route path='/classes' element={<ClassesPage />} />
             </Route>
         </>
     )

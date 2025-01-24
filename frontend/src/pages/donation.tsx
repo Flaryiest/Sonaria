@@ -1,3 +1,4 @@
+import "../style/donation.css"
 export default function DonationPage() {
     return (
         <div className="donation-page-container">
