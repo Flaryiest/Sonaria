@@ -1,0 +1,28 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.footer-content {
+    padding: 40px 40px;
+    width: 1024px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-logo-text {
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.footer-copyright {
+    font-size: 0.9em;
+}

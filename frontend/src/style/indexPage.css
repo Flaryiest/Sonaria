@@ -427,7 +427,7 @@
     font-size: 1.1em;
     color: rgb(117, 117, 117);
     text-align: center;
-    margin-top: 4px;
+    margin-top: 12px;
     font-weight: 550;
     width: 40ch;
 }
@@ -503,4 +503,14 @@
 .green-gradient {
     background-image: 
     linear-gradient(to top, rgba(253, 253, 253, 1), rgb(252, 251, 251), rgba(243, 243, 243, 0.8),rgb(251, 255, 248), rgb(246, 255, 241), rgb(240, 255, 233), rgb(234, 255, 224));
+}
+
+.index-page-section-four-call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 64px;
+    color: rgb(59, 59, 59);
+    gap: 4px;
+    font-size: 1.1em;
 }

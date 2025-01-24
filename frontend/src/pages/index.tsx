@@ -1,6 +1,7 @@
 import '../style/indexPage.css'
 import { Link } from 'react-router-dom'
 import Marquee from 'react-fast-marquee'
+import Footer from "../components/footer.tsx"
 export default function IndexPage() {
     return <div className="index-page-container">
         <div className="index-page">
@@ -122,8 +123,10 @@ export default function IndexPage() {
                             </div>
                         </div>
                     </div>
+                    <div className="index-page-section-four-call-to-action">Are you a student? <span className="bold">Join Us</span> <img src="/assets/arrow-up-right.svg"></img></div>
                 </div>
             </div>
+            <Footer/>
         </div>
     </div>
 }
