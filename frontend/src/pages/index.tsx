@@ -71,18 +71,40 @@ export default function IndexPage() {
             </div>
             <div className="index-page-section-three">
                 <div className="index-page-section-three-content">
-                    <h2 className="index-page-section-three-header">Impact at a glance</h2>
-                    <h3 className="index-page-section-three-text">Sonaria has been able to aid many in their musical journey.</h3>
-                    <div className="index-page-section-three-content-container">
-                        <div className="index-page-section-three-stats-container">
-                            <div className="index-page-section-three-stat">
-                                <p className="index-page-section-three-stat-text">Students</p>
-                                <h3 className="index-page-section-three-stat-header">100+</h3>
+                    <div className="index-page-section-three-left">
+                        <h2 className="index-page-section-three-header">Impact at a glance</h2>
+                        <h3 className="index-page-section-three-text">Sonaria has been able to aid many in their musical journey.</h3>
+                        <div className="index-page-section-three-content-container">
+                            <div className="index-page-section-three-stats-container">
+                                <div className="index-page-section-three-stat">
+                                    <p className="index-page-section-three-stat-text">Students</p>
+                                    <h3 className="index-page-section-three-stat-header">100+</h3>
+                                </div>
+                                <div className="index-page-section-three-stat">
+                                    <p className="index-page-section-three-stat-text">Teachers</p>
+                                    <h3 className="index-page-section-three-stat-header">12</h3>
+                                </div>
                             </div>
                         </div>
-                        <div className="iindex-page-section-three-image-container">
-
+                    </div>
+                    <div className="index-page-section-three-right">
+                        <div className="index-page-section-three-image-container">
+                            <div className="bars">
+                                <div className="bars__item"></div>
+                                <div className="bars__item"></div>
+                                <div className="bars__item"></div>
+                                <div className="bars__item"></div>
+                            </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+            <div className="index-page-section-four">
+                <div className="index-page-section-four-content">
+                    <h2 className="index-page-section-four-header">Testimonies</h2>
+                    <p className="index-page-section-four-text">We have worked with many people, and we hope to work with you in the future.</p>
+                    <div className="index-page-section-four-card-container">
+                        <div className="index-page-section-four-card-row"></div>
                     </div>
                 </div>
             </div>
