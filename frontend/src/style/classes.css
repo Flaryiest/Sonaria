@@ -196,3 +196,17 @@
     margin-top: 12px;
     line-height: 1.7;
 }
+
+@media (max-width: 850px) {
+    .classes-page-section-two-header {
+        font-size: 2em;
+    }
+
+    .classes-page-sub-header {
+        font-size: 1.2em;
+    }
+    .classes-page-section-two-text {
+        font-size: 1em;
+        width: 38ch;
+    }
+}
