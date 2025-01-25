@@ -169,7 +169,7 @@
     display: flex;
     justify-content: center;
     margin-top: 40px;
-    gap: 40px;
+    gap: 60px;
 }
 
 .info-page-section-four-card-column {
@@ -206,7 +206,7 @@
     background-color: white;
     box-sizing: border-box;
     border-style: solid;
-    border-color: rgb(214, 214, 214);
+    border-color: rgb(233, 233, 233);
     border-width: 1px;
 }
 
