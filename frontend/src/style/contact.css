@@ -78,7 +78,7 @@ button {
 }
 
 button:hover {
-    background-color: #0077ff;
+    background-color: rgb(255, 78, 240);
 }
 
 .contact-page-submit-button {
