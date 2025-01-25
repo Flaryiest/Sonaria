@@ -11,7 +11,7 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    max-width: 1200px;
+    max-width: 1400px;
     width: 100%;
     margin-top: 70px;
 }
@@ -19,6 +19,7 @@
 .contact-page-left {
     flex: 1;
     padding: 20px;
+    max-width: 45%;
 }
 
 .contact-page-logo {
@@ -65,19 +66,48 @@
 
 .contact-form-group textarea {
     resize: vertical;
-    height: 100px;
+    height: 160px;
 }
 
 button {
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
-    background-color: #ae838e;
     color: white;
-    cursor: pointer;
     align-self: flex-start;
 }
 
 button:hover {
-    background-color: #9b6f7b;
+    background-color: #0077ff;
+}
+
+.contact-page-submit-button {
+    width: 100%;
+    background-color: black;
+    color: white;
+    transition: background-color 0.5s;
+}
+
+.contact-page-right-image-container {
+    max-height: 100dvh;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+
+.contact-page-right-image {
+    width: 100%;
+    max-height: 80dvh;
+    height: auto;
+    flex: 1;
+    flex-shrink: 1;
+    border-radius: 16px;
+    object-fit: cover;
+}
+
+input:focus{
+    outline: 2px solid rgb(255, 78, 240);
+  }
+textarea:focus {
+    outline: 2px solid rgb(255, 78, 240);
 }

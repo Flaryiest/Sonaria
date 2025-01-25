@@ -31,12 +31,12 @@ export default function ContactPage() {
                             <label htmlFor="message">Message</label>
                             <textarea id="message" name="message"></textarea>
                         </div>
-                        <button type="submit">Send Message</button>
+                        <button type="submit" className="contact-page-submit-button">Send Message</button>
                     </form>
                 </div>
                 <div className="contact-page-right">
                     <div className="contact-page-right-image-container">
-                        <img src="" alt="Isometric illustration of a person playing a piano" className="contact-page-right-image"/>
+                        <img src="/assets/music-background.webp" alt="Isometric illustration of a person playing a piano" className="contact-page-right-image"/>
                     </div>
                 </div>
             </div>
