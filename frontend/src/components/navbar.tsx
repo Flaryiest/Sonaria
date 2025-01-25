@@ -5,24 +5,41 @@ import { Link } from 'react-router-dom'
 export default function Navbar() {
     const [menuOpen, setMenuOpen] = useState(false)
 
+    const handleMenuToggle = () => {
+        setTimeout(() => {
+            setMenuOpen(!menuOpen)
+        }, 50)
+    }
+
+    const handleCloseMenu = () => {
+        setTimeout(() => {
+            setMenuOpen(false)
+        }, 50)
+    }
+
     return (
-        <div className="navbar-container">
-            <div className="navbar">
+        <div className={`navbar-container ${menuOpen ? 'open' : ''}`}>
+            <div className={`navbar ${menuOpen ? 'open' : ''}`}>
                 <div className="navbar-logo">
                     <Link to="/" className="navbar-logo-text">
                         Sonaria
                     </Link>
                 </div>
-                <div className={`navbar-links ${menuOpen ? 'open' : ''}`}>
-                    <Link to="/info" className="navbar-base-link">
+                <div onClick={handleCloseMenu} className={`navbar-links ${menuOpen ? 'open' : ''}`}>
+                    <Link to="/info" className={`navbar-base-link ${menuOpen ? 'open' : ''}`}>
                         Info
                     </Link>
-                    <Link to="/organization" className="navbar-base-link">
+                    <Link to="/organization"  className={`navbar-base-link ${menuOpen ? 'open' : ''}`}>
                         Organization
                     </Link>
-                    <Link to="/donate" className="navbar-base-link">
-                        Donate
-                    </Link>
+                    {menuOpen && <>
+                        <Link to="/contact" className={`navbar-base-link ${menuOpen ? 'open' : ''}`} >
+                            Contact
+                        </Link>
+                        <Link to="/classes"  className={`navbar-base-link ${menuOpen ? 'open' : ''}`}>
+                            Classes
+                        </Link>
+                    </>}
                 </div>
                 <div className="navbar-onboard-links">
                     <Link to="/contact" className="navbar-login-link">
@@ -34,7 +51,7 @@ export default function Navbar() {
                 </div>
                 <div
                     className="navbar-menu-icon"
-                    onClick={() => setMenuOpen(!menuOpen)}
+                    onClick={handleMenuToggle}
                 >
                     <svg width="24" height="24" viewBox="0 0 24 24">
                         <path

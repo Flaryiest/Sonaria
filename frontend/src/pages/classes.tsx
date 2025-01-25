@@ -33,11 +33,7 @@ export default function ClassesPage() {
                 <div className="classes-page-section-two-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias voluptatibus, temporibus dolorum aliquam illum quidem explicabo! Natus, laborum vel beatae, suscipit modi eveniet autem sint asperiores nemo magnam ullam! Itaque.</div>
             </div>
             <div className="classes-page-section-two">
-                <div className="classes-page-section-two-header">Current</div>
-                <div className="classes-page-section-two-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias voluptatibus, temporibus dolorum aliquam illum quidem explicabo! Natus, laborum vel beatae, suscipit modi eveniet autem sint asperiores nemo magnam ullam! Itaque.</div>
-            </div>
-            <div className="classes-page-section-two">
-                <div className="classes-page-section-two-header">Past</div>
+                <div className="classes-page-section-two-header">Our Activities</div>
                 <div className="classes-page-section-two-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias voluptatibus, temporibus dolorum aliquam illum quidem explicabo! Natus, laborum vel beatae, suscipit modi eveniet autem sint asperiores nemo magnam ullam! Itaque.</div>
             </div>
             <Footer/>

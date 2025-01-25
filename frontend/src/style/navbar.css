@@ -120,12 +120,22 @@
 }
 
 @media (max-width: 1000px) {
+    .navbar-container.open {
+        background-color: rgba(255, 255, 255, 1);
+        backdrop-filter: blur(10px);
+    }
     .navbar {
-        margin: 0 2em;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+    .navbar.open {
+        background-color: rgba(255, 255, 255, 1);
+        backdrop-filter: blur(10px);
     }
     .navbar-links,
     .navbar-onboard-links {
         display: none;
+        gap: 0;
     }
 
     .navbar-menu-icon {
@@ -137,10 +147,25 @@
         flex-direction: column;
         position: absolute;
         top: 56px;
-        left: 0;
-        width: 100%;
-        background-color: rgba(255, 255, 255, 0.9);
+        left: -20px;
+        padding-left: 20px;
+        width: 100dvw;
+        background-color: rgba(255, 255, 255, 1);
         backdrop-filter: blur(10px);
         padding: 1rem;
+        height: 100dvh;
+    }
+
+    .navbar-base-link.open {
+        text-align: left;
+        justify-content: start;
+        font-weight: 700;
+        font-size: 1.05em;
+        min-height: 40px;
+        padding: 10px;
+        border-bottom: 1px;
+        border-style: solid;
+        border-color: rgb(194, 194, 194);
+        border-radius: 0px;
     }
 }
