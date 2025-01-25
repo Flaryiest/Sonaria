@@ -151,3 +151,13 @@
     max-width: 1600px;
     flex: 1;
 }
+
+@media (max-width: 700px) {
+    .organization-page-header {
+        font-size: 2em;
+    }
+    .organization-page-sub-header {
+        font-size: 1.2em;
+        width: 34ch;
+    }
+}
