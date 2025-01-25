@@ -1,5 +1,6 @@
 import '../style/info.css'
 import Marquee from 'react-fast-marquee'
+import Footer from '../components/footer'
 export default function InfoPage() {
     return <div className="info-page-container">
         <div className="info-page">
@@ -82,6 +83,7 @@ export default function InfoPage() {
                     </div>
                 </div>    
             </div>   
+            <Footer/>
         </div>
     </div>
 }

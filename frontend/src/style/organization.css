@@ -13,3 +13,141 @@
     align-items: center;
     margin-top: 70px;
 }
+
+.organization-page-section-one {
+    border-radius: 16px;
+    height: 360px;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    width: 1024px;
+}
+
+.organization-page-grid {
+    position: absolute;
+    width: 1024px;
+    height: 460px;
+    background-image: linear-gradient(
+            to right,
+            rgb(230, 230, 230) 1px,
+            transparent 1px
+        ),
+        linear-gradient(to bottom, rgb(230, 230, 230) 1px, transparent 1px);
+    background-size: 80px 80px;
+    background-position: center center;
+    z-index: 1;
+}
+
+.organization-page-header-container {
+    z-index: 2;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 1024px;
+    box-sizing: border-box;
+    height: 460px;
+    border-radius: 32px;
+    background-image: linear-gradient(
+        to right,
+        rgba(255, 255, 255, 0),
+        rgba(255, 255, 255, 0),
+        rgba(255, 255, 255, 0.7)
+    ),
+    linear-gradient(
+        to left,
+        rgba(255, 255, 255, 0),
+        rgba(255, 255, 255, 0),
+        rgba(255, 255, 255, 0.7)
+    ),
+    linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 0.7),
+        rgba(255, 255, 255, 0),
+        rgba(255, 255, 255, 0.7)
+    );
+}
+
+.organization-page-header {
+    font-size: 2.4em;
+    color: black;
+    width: 20ch;
+    font-weight: 550;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.organization-page-sub-header {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 1.2em;
+    width: 40ch;
+    color: rgb(112, 112, 112);
+}
+
+.organization-page-card-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+    flex-wrap: wrap;
+}
+
+.organization-page-card-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.organization-page-card {
+    width: 360px;
+    box-sizing: border-box;
+    padding: 8px 24px;
+    margin-top: 30px;
+}
+
+.organization-page-card-image-container {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.organization-page-card-image {
+    flex-shrink: 1;
+    width: 320px;
+    height: 360px;
+
+}
+
+.organization-page-card-name {
+    font-size: 1.2em;
+    color: black;
+    font-weight: 550;
+    margin-top: 12px;
+}
+
+.organization-page-card-title {
+    font-size: 1em;
+    color: rgb(58, 58, 58);
+    margin-top: 8px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.organization-page-card-text {
+    margin-top: 16px;
+    font-size: 1em;
+    color: rgb(61, 61, 61);
+    line-height: 1.5;
+}
+
+.organization-page-section-two {
+    max-width: 1600px;
+    flex: 1;
+}
