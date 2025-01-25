@@ -3,12 +3,12 @@ export default function DonationPage() {
     return (
         <div className="donation-page-container">
             <div className="donation-page">
-                <h1>Donation</h1>
-                <p>
-                    Thank you for considering a donation to Sonaria. Your
-                    donation will help us continue to provide music education to
-                    students in need.
-                </p>
+                <div className="donation-page-section-one">
+                    <div className="donation-page-header-container">
+                        <h1 className="donation-page-header">Donate to Sonaria</h1>
+                        <p className="donation-page-sub-header">Your donation helps us provide music education to students around the world.</p>
+                    </div>
+                </div>
             </div>
         </div>
     )
