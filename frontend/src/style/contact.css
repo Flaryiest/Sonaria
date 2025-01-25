@@ -105,9 +105,9 @@ button:hover {
     object-fit: cover;
 }
 
-input:focus{
+input:focus {
     outline: 2px solid rgb(255, 78, 240);
-  }
+}
 textarea:focus {
     outline: 2px solid rgb(255, 78, 240);
 }

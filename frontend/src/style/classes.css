@@ -48,13 +48,12 @@
     z-index: 1;
 }
 
-
 .glow {
     width: 1px;
     height: 1px;
     border-radius: 0%;
     background-color: rgba(255, 255, 255, 0);
-    position:fixed;
+    position: fixed;
     z-index: 3;
 }
 
@@ -64,13 +63,11 @@
     box-shadow: 0 0 300px 180px rgba(255, 12, 243, 0.2);
 }
 
-
 .gold {
     left: 40%;
     top: 35%;
     box-shadow: 0 0 300px 180px rgba(239, 255, 22, 0.2);
 }
-
 
 .classes-page-section-one {
     width: 1200px;
@@ -112,7 +109,6 @@
     font-weight: 450;
 }
 
-
 .classes-page-section-one-button-container {
     display: flex;
     gap: 20px;
@@ -144,7 +140,6 @@
     background-color: rgb(97, 97, 97);
 }
 
-
 .classes-page-section-one-contact-button {
     display: flex;
     justify-content: center;
@@ -164,13 +159,9 @@
     width: 120px;
 }
 
-
 .classes-page-section-one-contact-button:hover {
     background-color: rgba(255, 6, 222, 1);
 }
-
-
-
 
 .classes-page-section-two {
     display: flex;
@@ -185,10 +176,9 @@
     font-size: 2.5em;
     color: black;
     font-weight: 500;
-
 }
 
-.classes-page-section-two-text{
+.classes-page-section-two-text {
     font-size: 1.2em;
     color: rgb(58, 58, 58);
     font-weight: 475;

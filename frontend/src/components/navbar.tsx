@@ -25,21 +25,38 @@ export default function Navbar() {
                         Sonaria
                     </Link>
                 </div>
-                <div onClick={handleCloseMenu} className={`navbar-links ${menuOpen ? 'open' : ''}`}>
-                    <Link to="/info" className={`navbar-base-link ${menuOpen ? 'open' : ''}`}>
+                <div
+                    onClick={handleCloseMenu}
+                    className={`navbar-links ${menuOpen ? 'open' : ''}`}
+                >
+                    <Link
+                        to="/info"
+                        className={`navbar-base-link ${menuOpen ? 'open' : ''}`}
+                    >
                         Info
                     </Link>
-                    <Link to="/organization"  className={`navbar-base-link ${menuOpen ? 'open' : ''}`}>
+                    <Link
+                        to="/organization"
+                        className={`navbar-base-link ${menuOpen ? 'open' : ''}`}
+                    >
                         Organization
                     </Link>
-                    {menuOpen && <>
-                        <Link to="/contact" className={`navbar-base-link ${menuOpen ? 'open' : ''}`} >
-                            Contact
-                        </Link>
-                        <Link to="/classes"  className={`navbar-base-link ${menuOpen ? 'open' : ''}`}>
-                            Classes
-                        </Link>
-                    </>}
+                    {menuOpen && (
+                        <>
+                            <Link
+                                to="/contact"
+                                className={`navbar-base-link ${menuOpen ? 'open' : ''}`}
+                            >
+                                Contact
+                            </Link>
+                            <Link
+                                to="/classes"
+                                className={`navbar-base-link ${menuOpen ? 'open' : ''}`}
+                            >
+                                Classes
+                            </Link>
+                        </>
+                    )}
                 </div>
                 <div className="navbar-onboard-links">
                     <Link to="/contact" className="navbar-login-link">
@@ -49,10 +66,7 @@ export default function Navbar() {
                         Classes
                     </Link>
                 </div>
-                <div
-                    className="navbar-menu-icon"
-                    onClick={handleMenuToggle}
-                >
+                <div className="navbar-menu-icon" onClick={handleMenuToggle}>
                     <svg width="24" height="24" viewBox="0 0 24 24">
                         <path
                             d="M3 6h18M3 12h18M3 18h18"
