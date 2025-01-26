@@ -37,7 +37,8 @@ export default function OrganizationPage() {
                                     A student chained to the demands of the
                                     International Baccalaureate Diploma
                                     Programme, Evan Li finds refuge in his
-                                    musical endeavours.{' '}
+                                    musical endeavours. He has made it his mission to ensure that children will have access to affordable music education, and that classes run smoothly.
+                                    When he is not getting lost in downtown Calgary, he can be found dominating the badminton court or playing the piano.
                                 </p>
                             </div>
                             <div className="organization-page-card">
