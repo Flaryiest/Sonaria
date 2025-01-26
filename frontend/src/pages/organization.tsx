@@ -1,24 +1,33 @@
 import '../style/organization.css'
 import Footer from '../components/footer'
-import { Fade, Slide } from "react-awesome-reveal"
+import { Fade, Slide } from 'react-awesome-reveal'
 export default function OrganizationPage() {
     return (
         <div className="organization-page-container">
             <div className="organization-page">
                 <div className="organization-page-section-one">
                     <div className="organization-page-grid"></div>
-                    <Fade className="organization-page-header-container"duration={400} triggerOnce>
-                        <Slide className="animation" direction="up" duration={800} triggerOnce>
-                        <h1 className="organization-page-header">
-                            We are the people who make up Sonaria
-                        </h1>
-                        <p className="organization-page-sub-header">
-                            Our philosophy is simple; hire great people and give
-                            them the resources needed to do their best work.
-                        </p>
+                    <Fade
+                        className="organization-page-header-container"
+                        duration={400}
+                        triggerOnce
+                    >
+                        <Slide
+                            className="animation"
+                            direction="up"
+                            duration={800}
+                            triggerOnce
+                        >
+                            <h1 className="organization-page-header">
+                                We are the people who make up Sonaria
+                            </h1>
+                            <p className="organization-page-sub-header">
+                                Our philosophy is simple; hire great people and
+                                give them the resources needed to do their best
+                                work.
+                            </p>
                         </Slide>
                     </Fade>
-
                 </div>
                 <div className="organization-page-section-two">
                     <div className="organization-page-card-container">
@@ -41,8 +50,13 @@ export default function OrganizationPage() {
                                     A student chained to the demands of the
                                     International Baccalaureate Diploma
                                     Programme, Evan Li finds refuge in his
-                                    musical endeavours. He has made it his mission to ensure that children will have access to affordable music education, and that classes run smoothly.
-                                    When he is not getting lost in downtown Calgary, he can be found dominating the badminton court or playing the piano.
+                                    musical endeavours. He has made it his
+                                    mission to ensure that children will have
+                                    access to affordable music education, and
+                                    that classes run smoothly. When he is not
+                                    getting lost in downtown Calgary, he can be
+                                    found dominating the badminton court or
+                                    playing the piano.
                                 </p>
                             </div>
                             <div className="organization-page-card">

@@ -169,11 +169,8 @@ button {
     border: none;
     color: var(--primary-text-color);
     background-color: var(--primary-background-color);
-    font-family: 'Poppins';
     font-weight: 500;
     cursor: pointer;
 }
 
-input {
-    font-family: 'Roboto';
-}
+

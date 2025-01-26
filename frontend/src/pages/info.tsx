@@ -10,8 +10,8 @@ export default function InfoPage() {
                     <div className="info-page-grid"></div>
                     <div className="info-page-header-container">
                         <Fade className="info-page-header">
-                            Committed to advancing education by
-                            conducting high quality courses.
+                            Committed to advancing education by conducting high
+                            quality courses.
                         </Fade>
                         <Fade className="info-page-sub-header">
                             We're a non-profit organization striving to help
@@ -46,9 +46,10 @@ export default function InfoPage() {
                         impact.
                     </p>
                     <div className="info-page-section-two-video-container">
-                        <video className="info-page-section-two-video" controls>
-                            <source src="/assets/cat.mp4" type="video/mp4" />
-                        </video>
+                        <img
+                            className="info-page-section-two-video"
+                            src="/assets/kid-playing-piano.webp"
+                        ></img>
                     </div>
                 </div>
                 <div className="info-page-section-three">

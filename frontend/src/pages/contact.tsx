@@ -1,5 +1,6 @@
 import '../style/contact.css'
 import Footer from '../components/footer'
+import { Fade } from 'react-awesome-reveal'
 export default function ContactPage() {
     return (
         <div className="contact-page-container">
@@ -51,13 +52,13 @@ export default function ContactPage() {
                     </form>
                 </div>
                 <div className="contact-page-right">
-                    <div className="contact-page-right-image-container">
-                        <img
+                    <Fade className="contact-page-right-image-container">
+                        <img loading="lazy"
                             src="/assets/music-background.webp"
                             alt="Isometric illustration of a person playing a piano"
                             className="contact-page-right-image"
                         />
-                    </div>
+                    </Fade>
                 </div>
             </div>
             <Footer />

@@ -2,33 +2,43 @@ import '../style/indexPage.css'
 import { Link } from 'react-router-dom'
 import Marquee from 'react-fast-marquee'
 import Footer from '../components/footer.tsx'
-import { Fade, Slide } from "react-awesome-reveal"
+import { Fade, Slide } from 'react-awesome-reveal'
 export default function IndexPage() {
     return (
         <div className="index-page-container">
             <div className="index-page">
                 <div className="index-page-section-one">
                     <div className="grid"></div>
-                    
-                        <div className="index-page-section-one-content">
-                            <Fade duration={300} triggerOnce>
-                                <Slide direction="up" duration={400} triggerOnce>
+
+                    <div className="index-page-section-one-content">
+                        <Fade duration={300} triggerOnce>
+                            <Slide direction="up" duration={400} triggerOnce>
                                 <h1 className="index-page-section-one-header">
                                     Where Music Meets Magic
                                 </h1>
-                                </Slide>
-                            </Fade>
-                            <Fade duration={300} delay={100} triggerOnce>
-                                <Slide direction="up" delay={100} duration={400} triggerOnce>
-                                    <p className="index-page-section-one-text">
-                                        Sonaria is a registered non-profit organization
-                                        striving to make musical education meet with
-                                        accessibility.
-                                    </p>
-                                </Slide>
-                            </Fade>
-                            <Fade duration={300} delay={200} triggerOnce>
-                            <Slide direction="up" delay={200} duration={400} triggerOnce>
+                            </Slide>
+                        </Fade>
+                        <Fade duration={300} delay={100} triggerOnce>
+                            <Slide
+                                direction="up"
+                                delay={100}
+                                duration={400}
+                                triggerOnce
+                            >
+                                <p className="index-page-section-one-text">
+                                    Sonaria is a registered non-profit
+                                    organization striving to make musical
+                                    education meet with accessibility.
+                                </p>
+                            </Slide>
+                        </Fade>
+                        <Fade duration={300} delay={200} triggerOnce>
+                            <Slide
+                                direction="up"
+                                delay={200}
+                                duration={400}
+                                triggerOnce
+                            >
                                 <div className="index-page-section-one-buttons">
                                     <Link
                                         to="/classes"
@@ -44,18 +54,27 @@ export default function IndexPage() {
                                     </Link>
                                 </div>
                             </Slide>
+                        </Fade>
+                        <Slide
+                            direction="up"
+                            delay={250}
+                            duration={400}
+                            triggerOnce
+                            className="index-page-section-one-image-container"
+                        >
+                            <Fade
+                                duration={300}
+                                delay={250}
+                                triggerOnce
+                                className="index-page-section-one-image-container"
+                            >
+                                <img
+                                    src="/assets/piano.webp"
+                                    className="index-page-section-one-image"
+                                ></img>
                             </Fade>
-                            <Slide direction="up" delay={250} duration={400} triggerOnce className="index-page-section-one-image-container">
-                                <Fade duration={300} delay={250} triggerOnce className="index-page-section-one-image-container">
-                                    <img
-                                        src="/assets/piano.webp"
-                                        className="index-page-section-one-image"
-                                    ></img>
-
-                                </Fade>
-                            </Slide>
-                        </div>
-                    
+                        </Slide>
+                    </div>
                 </div>
                 <div className="index-page-section-two">
                     <div className="index-page-section-two-content">
