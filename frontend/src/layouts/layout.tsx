@@ -7,7 +7,7 @@ export default function Layout() {
         <>
             <Navbar />
             <Outlet />
-            <ScrollToTop/>
+            <ScrollToTop />
             <div className="cursor-wrapper">
                 <AnimatedCursor color="0,0,0" />
             </div>

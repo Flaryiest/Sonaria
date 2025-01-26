@@ -86,7 +86,13 @@ export default function InfoPage() {
                                         <p className="info-page-section-four-card-text">
                                             We strive to provide the highest
                                             quality music education to our
-                                            students. Our experienced instructors are dedicated to delivering exceptional lessons tailored to each student's needs. We continuously update our curriculum to ensure it meets the highest standards.
+                                            students. Our experienced
+                                            instructors are dedicated to
+                                            delivering exceptional lessons
+                                            tailored to each student's needs. We
+                                            continuously update our curriculum
+                                            to ensure it meets the highest
+                                            standards.
                                         </p>
                                     </div>
                                 </div>
@@ -100,7 +106,15 @@ export default function InfoPage() {
                                             Education
                                         </h3>
                                         <p className="info-page-section-four-card-text">
-                                            Our comprehensive music education program covers a wide range of topics, from basic theory to advanced techniques. We provide personalized lessons to ensure each student receives the attention they need to succeed. Our goal is to make learning music enjoyable and effective.
+                                            Our comprehensive music education
+                                            program covers a wide range of
+                                            topics, from basic theory to
+                                            advanced techniques. We provide
+                                            personalized lessons to ensure each
+                                            student receives the attention they
+                                            need to succeed. Our goal is to make
+                                            learning music enjoyable and
+                                            effective.
                                         </p>
                                     </div>
                                 </div>
@@ -116,7 +130,14 @@ export default function InfoPage() {
                                             Community
                                         </h3>
                                         <p className="info-page-section-four-card-text">
-                                            At Sonaria, we believe in fostering a strong sense of community among our students. We encourage collaboration and support, creating an environment where everyone feels welcome. Our community events and group classes help build lasting connections.
+                                            At Sonaria, we believe in fostering
+                                            a strong sense of community among
+                                            our students. We encourage
+                                            collaboration and support, creating
+                                            an environment where everyone feels
+                                            welcome. Our community events and
+                                            group classes help build lasting
+                                            connections.
                                         </p>
                                     </div>
                                 </div>
@@ -130,7 +151,15 @@ export default function InfoPage() {
                                             Accessibility
                                         </h3>
                                         <p className="info-page-section-four-card-text">
-                                            We are committed to making music education accessible to everyone. Our free classes remove financial barriers, allowing individuals from all backgrounds to learn and grow. We strive to create an inclusive environment where everyone has the opportunity to explore their musical potential.
+                                            We are committed to making music
+                                            education accessible to everyone.
+                                            Our free classes remove financial
+                                            barriers, allowing individuals from
+                                            all backgrounds to learn and grow.
+                                            We strive to create an inclusive
+                                            environment where everyone has the
+                                            opportunity to explore their musical
+                                            potential.
                                         </p>
                                     </div>
                                 </div>

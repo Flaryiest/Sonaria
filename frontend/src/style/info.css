@@ -261,7 +261,6 @@
 }
 
 @media (max-width: 800px) {
-
     .info-page-section-four-card-container {
         flex-direction: column;
         gap: 0px;

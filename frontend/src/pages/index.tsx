@@ -86,7 +86,16 @@ export default function IndexPage() {
                                         Blending Music with Education
                                     </h3>
                                     <p className="index-page-section-two-card-text">
-                                        At Sonaria, we blend music with education in dynamic ways to create a unique learning experience. Our approach integrates musical concepts with academic subjects, making learning more engaging and effective. By combining these elements, we help students develop a deeper understanding and appreciation of both music and their academic studies.
+                                        At Sonaria, we blend music with
+                                        education in dynamic ways to create a
+                                        unique learning experience. Our approach
+                                        integrates musical concepts with
+                                        academic subjects, making learning more
+                                        engaging and effective. By combining
+                                        these elements, we help students develop
+                                        a deeper understanding and appreciation
+                                        of both music and their academic
+                                        studies.
                                     </p>
                                 </div>
                                 <div className="index-page-section-two-card">
@@ -100,7 +109,15 @@ export default function IndexPage() {
                                         Free Classes for All
                                     </h3>
                                     <p className="index-page-section-two-card-text">
-                                        We offer classes at no cost because we believe that everyone should have access to music education. Our mission is to remove financial barriers and provide equal opportunities for all individuals to learn and grow through music. By offering free classes, we aim to foster a more inclusive and diverse musical community.
+                                        We offer classes at no cost because we
+                                        believe that everyone should have access
+                                        to music education. Our mission is to
+                                        remove financial barriers and provide
+                                        equal opportunities for all individuals
+                                        to learn and grow through music. By
+                                        offering free classes, we aim to foster
+                                        a more inclusive and diverse musical
+                                        community.
                                     </p>
                                 </div>
                             </div>
@@ -116,7 +133,15 @@ export default function IndexPage() {
                                         Benefits of Learning Music
                                     </h3>
                                     <p className="index-page-section-two-card-text">
-                                        Learning music benefits people in numerous ways, enhancing cognitive abilities and emotional well-being. Studies have shown that music education can improve memory, attention, and problem-solving skills. Additionally, engaging with music can reduce stress, boost self-esteem, and provide a sense of accomplishment and joy.
+                                        Learning music benefits people in
+                                        numerous ways, enhancing cognitive
+                                        abilities and emotional well-being.
+                                        Studies have shown that music education
+                                        can improve memory, attention, and
+                                        problem-solving skills. Additionally,
+                                        engaging with music can reduce stress,
+                                        boost self-esteem, and provide a sense
+                                        of accomplishment and joy.
                                     </p>
                                 </div>
                                 <div className="index-page-section-two-card">
@@ -130,7 +155,16 @@ export default function IndexPage() {
                                         Comprehensive Music Education
                                     </h3>
                                     <p className="index-page-section-two-card-text">
-                                        We provide both music theory and individualized lessons to cater to each student's unique needs. Our comprehensive curriculum covers fundamental concepts, advanced techniques, and practical applications. By offering personalized instruction, we ensure that each student receives the guidance and support they need to succeed in their musical journey.
+                                        We provide both music theory and
+                                        individualized lessons to cater to each
+                                        student's unique needs. Our
+                                        comprehensive curriculum covers
+                                        fundamental concepts, advanced
+                                        techniques, and practical applications.
+                                        By offering personalized instruction, we
+                                        ensure that each student receives the
+                                        guidance and support they need to
+                                        succeed in their musical journey.
                                     </p>
                                 </div>
                             </div>
@@ -196,8 +230,17 @@ export default function IndexPage() {
                                         Piano
                                     </div>
                                     <p className="index-page-section-four-card-text">
-                                        "My experience at Sonaria has been exceptional. The instructors are <span className="bold black">highly skilled and dedicated</span> to their craft. Through their guidance, I have significantly improved my piano skills and developed a deeper appreciation for music. Sonaria's approach to music education is both innovative and effective."
-                                        
+                                        "My experience at Sonaria has been
+                                        exceptional. The instructors are{' '}
+                                        <span className="bold black">
+                                            highly skilled and dedicated
+                                        </span>{' '}
+                                        to their craft. Through their guidance,
+                                        I have significantly improved my piano
+                                        skills and developed a deeper
+                                        appreciation for music. Sonaria's
+                                        approach to music education is both
+                                        innovative and effective."
                                     </p>
                                     <div className="index-page-section-four-card-info">
                                         <p className="index-page-section-four-card-name">
@@ -213,7 +256,12 @@ export default function IndexPage() {
                                         Piano
                                     </div>
                                     <p className="index-page-section-four-card-text">
-                                        "Sonaria has provided me with an outstanding music education experience. The free classes have allowed me to pursue my passion for music without financial burden. I am grateful for the opportunities Sonaria has given me."
+                                        "Sonaria has provided me with an
+                                        outstanding music education experience.
+                                        The free classes have allowed me to
+                                        pursue my passion for music without
+                                        financial burden. I am grateful for the
+                                        opportunities Sonaria has given me."
                                     </p>
                                     <div className="index-page-section-four-card-info">
                                         <p className="index-page-section-four-card-name">
