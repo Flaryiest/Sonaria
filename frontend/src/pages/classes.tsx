@@ -37,11 +37,7 @@ export default function ClassesPage() {
                         Upcoming
                     </div>
                     <div className="classes-page-section-two-text">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing
-                        elit. Alias voluptatibus, temporibus dolorum aliquam
-                        illum quidem explicabo! Natus, laborum vel beatae,
-                        suscipit modi eveniet autem sint asperiores nemo magnam
-                        ullam! Itaque.
+                        We are planning to host some group classes in the near future in the first quarter of 2025. In addition, we are currently accepting applicants for individual classes on a rolling basis. Interested individuals can apply by filling out the form above.
                     </div>
                 </div>
                 <div className="classes-page-section-two">
@@ -49,11 +45,7 @@ export default function ClassesPage() {
                         Our Activities
                     </div>
                     <div className="classes-page-section-two-text">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing
-                        elit. Alias voluptatibus, temporibus dolorum aliquam
-                        illum quidem explicabo! Natus, laborum vel beatae,
-                        suscipit modi eveniet autem sint asperiores nemo magnam
-                        ullam! Itaque.
+                        We have been hosting individual classes for the past few months very successfully. Our students have shown remarkable progress, and we hope to expand the scope of our activities in the near future to include more diverse and comprehensive music education programs.
                     </div>
                 </div>
                 <Footer />

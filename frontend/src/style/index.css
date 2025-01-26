@@ -121,7 +121,7 @@ table {
 }
 
 :root {
-    font-family: 'Inter', 'Inter Tight', 'Roboto', Inter, system-ui, Avenir,
+    font-family: 'Inter', 'Inter Tight', 'Roboto', Inter, system-ui,
         Helvetica, Arial, sans-serif;
 
     --primary-background-color: #ffffff;
