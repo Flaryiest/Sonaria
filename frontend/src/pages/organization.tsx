@@ -1,12 +1,14 @@
 import '../style/organization.css'
 import Footer from '../components/footer'
+import { Fade, Slide } from "react-awesome-reveal"
 export default function OrganizationPage() {
     return (
         <div className="organization-page-container">
             <div className="organization-page">
                 <div className="organization-page-section-one">
                     <div className="organization-page-grid"></div>
-                    <div className="organization-page-header-container">
+                    <Fade className="organization-page-header-container"duration={400} triggerOnce>
+                        <Slide className="animation" direction="up" duration={800} triggerOnce>
                         <h1 className="organization-page-header">
                             We are the people who make up Sonaria
                         </h1>
@@ -14,7 +16,9 @@ export default function OrganizationPage() {
                             Our philosophy is simple; hire great people and give
                             them the resources needed to do their best work.
                         </p>
-                    </div>
+                        </Slide>
+                    </Fade>
+
                 </div>
                 <div className="organization-page-section-two">
                     <div className="organization-page-card-container">

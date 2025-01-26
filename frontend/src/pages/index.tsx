@@ -2,7 +2,7 @@ import '../style/indexPage.css'
 import { Link } from 'react-router-dom'
 import Marquee from 'react-fast-marquee'
 import Footer from '../components/footer.tsx'
-import { Fade, Slide, Bounce } from "react-awesome-reveal"
+import { Fade, Slide } from "react-awesome-reveal"
 export default function IndexPage() {
     return (
         <div className="index-page-container">

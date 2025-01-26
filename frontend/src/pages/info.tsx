@@ -1,6 +1,7 @@
 import '../style/info.css'
 import Marquee from 'react-fast-marquee'
 import Footer from '../components/footer'
+import { Fade, Slide } from 'react-awesome-reveal'
 export default function InfoPage() {
     return (
         <div className="info-page-container">
@@ -8,15 +9,14 @@ export default function InfoPage() {
                 <div className="info-page-section-one">
                     <div className="info-page-grid"></div>
                     <div className="info-page-header-container">
-                        <h1 className="info-page-header">
-                            A dedicated team committed to advancing education by
+                        <Fade className="info-page-header">
+                            Committed to advancing education by
                             conducting high quality courses.
-                        </h1>
-                        <p className="info-page-sub-header">
-                            {' '}
+                        </Fade>
+                        <Fade className="info-page-sub-header">
                             We're a non-profit organization striving to help
                             others
-                        </p>
+                        </Fade>
                     </div>
                     <Marquee
                         className="info-page-section-one-marquee"

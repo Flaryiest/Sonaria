@@ -82,6 +82,7 @@
     width: 100%;
     justify-content: center;
     align-items: center;
+    margin-bottom: 16px;
 }
 
 .index-page-section-one-events-button {
@@ -127,7 +128,7 @@
 }
 
 .index-page-section-one-image-container {
-    margin-top: 16px;
+    margin-top: 8px;
     width: 100%;
     display: flex;
     justify-content: center;
