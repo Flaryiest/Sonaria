@@ -1,7 +1,7 @@
 import '../style/info.css'
 import Marquee from 'react-fast-marquee'
 import Footer from '../components/footer'
-import { Fade, Slide } from 'react-awesome-reveal'
+import { Fade } from 'react-awesome-reveal'
 export default function InfoPage() {
     return (
         <div className="info-page-container">
