@@ -89,11 +89,16 @@ button:hover {
     transition: background-color 0.5s;
 }
 
+.contact-page-right {
+    height: 100%;
+}
+
 .contact-page-right-image-container {
     max-height: 100dvh;
     display: flex;
     justify-self: center;
     align-items: center;
+    height: 100%;
 }
 
 .contact-page-right-image {
@@ -111,4 +116,15 @@ input:focus {
 }
 textarea:focus {
     outline: 2px solid rgb(255, 78, 240);
+}
+
+@media (max-width: 1024px) {
+    .contact-page-right {
+        display: none;
+        width: 0%;
+    }
+    .contact-page-left {
+        width: 85%;
+        max-width: 90%;
+    }
 }
