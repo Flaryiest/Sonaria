@@ -18,13 +18,13 @@ export default function ClassesPage() {
                         </div>
                         <div className="classes-page-section-one-button-container">
                             <Link
-                                to="/events"
+                                to="/register"
                                 className="classes-page-section-one-register-button"
                             >
                                 Register
                             </Link>
                             <Link
-                                to="/donate"
+                                to="/contact"
                                 className="classes-page-section-one-contact-button"
                             >
                                 Contact Us

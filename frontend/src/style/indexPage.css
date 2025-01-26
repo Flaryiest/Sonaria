@@ -249,15 +249,16 @@
 .index-page-section-two-card-header {
     font-size: 1.2em;
     font-weight: 500;
-    margin-top: 16px;
+    margin-top: 32px;
     color: black;
 }
 
 .index-page-section-two-card-text {
     color: rgb(77, 76, 76);
-    margin-top: 4px;
+    margin-top: 8px;
     margin-bottom: 16px;
     text-wrap: wrap;
+    
 }
 
 .border-right {
@@ -461,7 +462,8 @@
     flex-direction: column;
     max-width: 440px;
     width: 45%;
-    height: 320px;
+    min-height: 320px;
+    height: 360px;
     box-sizing: border-box;
     padding: 48px 32px;
     border-color: rgb(192, 192, 192);
@@ -481,7 +483,7 @@
     display: flex;
     justify-content: space-between;
     font-weight: 550;
-    padding: 32px 0px;
+    padding-top: 32px;
 }
 
 .bold {
@@ -575,6 +577,11 @@
     .index-page-section-two-card {
         width: 25%;
     }
+
+    .index-page-section-two-card-text {
+        max-width: 40ch;
+    }
+
     .index-page-section-four-card-row {
         width: 100%;
         box-sizing: border-box;
