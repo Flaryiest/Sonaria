@@ -27,7 +27,7 @@ export default function ClassesPage() {
                                 to="/contact"
                                 className="classes-page-section-one-contact-button"
                             >
-                                Contact Us
+                                Contact
                             </Link>
                         </div>
                     </div>
