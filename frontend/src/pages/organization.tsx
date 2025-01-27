@@ -35,7 +35,7 @@ export default function OrganizationPage() {
                             <div className="organization-page-card">
                                 <div className="organization-page-card-image-container">
                                     <img
-                                        src="/assets/dog.jpg"
+                                        src="/assets/dog.webp"
                                         alt="A person playing a guitar"
                                         className="organization-page-card-image"
                                     />
@@ -62,7 +62,7 @@ export default function OrganizationPage() {
                             <div className="organization-page-card">
                                 <div className="organization-page-card-image-container">
                                     <img
-                                        src="/assets/dog.jpg"
+                                        src="/assets/dog.webp"
                                         alt="A person playing a guitar"
                                         className="organization-page-card-image"
                                     />
@@ -83,7 +83,7 @@ export default function OrganizationPage() {
                             <div className="organization-page-card">
                                 <div className="organization-page-card-image-container">
                                     <img
-                                        src="/assets/dog.jpg"
+                                        src="/assets/dog.webp"
                                         alt="A person playing a guitar"
                                         className="organization-page-card-image"
                                     />
