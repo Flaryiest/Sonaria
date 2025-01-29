@@ -16,12 +16,12 @@ If anyone would like to use this website as a template, instructions are below.
 2. open in your editor
 
 Frontend - The code is divided relatively cleanly with each page/component having isolated css
-3. cd frontend
-4. npm run dev
+1. cd frontend
+2. npm run dev
 
-Backend 
-3. cd backend
-4. npm i
-5. npm run start
+Backend - A dotenv with DATABASE_URL needs to be created
+1. cd backend
+2. npm i
+3. npm run start
 
 
