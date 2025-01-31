@@ -14,6 +14,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    overflow-x: hidden;
 }
 
 .index-page-section-one {
@@ -52,6 +53,7 @@
     background-size: 80px 80px;
     background-position: center center;
     z-index: 1;
+    max-width: 100dvw;
 }
 
 .index-page-section-one-content {
@@ -62,6 +64,7 @@
     height: 100%;
     width: 600px;
     z-index: 2;
+    max-width: 100dvw;
 }
 
 .index-page-section-one-header {
