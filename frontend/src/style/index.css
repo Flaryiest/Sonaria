@@ -148,7 +148,7 @@ table {
 body {
     margin: 0;
     display: flex;
-    min-width: 320px;
+    min-width: 200px;
     min-height: 100dvh;
     overflow-x: hidden;
     overflow-y: scroll;
@@ -175,6 +175,3 @@ button {
 }
 
 
-div {
-    max-width: 100dvw;
-}
