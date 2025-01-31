@@ -157,7 +157,8 @@ body {
 
 #root {
     margin: 0 0;
-    width: 100dvw;
+    max-width: 100dvw;
+    width: 100%;
     box-sizing: border-box;
     height: 100dvh;
 }
