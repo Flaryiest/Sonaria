@@ -175,3 +175,6 @@ button {
 }
 
 
+div {
+    max-width: 100dvw;
+}
