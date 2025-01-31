@@ -4,6 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow-x: hidden;
 }
 .organization-page {
     width: 100%;
@@ -12,6 +13,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 70px;
+    overflow-x: hidden;
 }
 
 .organization-page-section-one {
@@ -43,6 +45,7 @@
 .organization-page-header-container {
     z-index: 2;
     position: relative;
+    max-width: 100dvw;
     display: flex;
     align-items: center;
     flex-direction: column;

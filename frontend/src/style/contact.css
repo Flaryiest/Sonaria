@@ -6,6 +6,7 @@
     align-items: center;
     padding: 20px;
     flex-direction: column;
+    overflow-x: hidden;
 }
 
 .contact-page {
@@ -15,6 +16,7 @@
     max-width: 1400px;
     width: 100%;
     margin-top: 70px;
+    overflow-x: hidden;
 }
 
 .contact-page-left {

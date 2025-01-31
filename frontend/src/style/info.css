@@ -4,6 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow-x: hidden;
 }
 .info-page {
     width: 100%;
@@ -12,6 +13,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 70px;
+    overflow-x: hidden;
 }
 
 .info-page-section-one {
