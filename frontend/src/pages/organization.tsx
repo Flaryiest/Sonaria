@@ -68,16 +68,12 @@ export default function OrganizationPage() {
                                     />
                                 </div>
                                 <h3 className="organization-page-card-name">
-                                    Evan Li
+                                    Vivian
                                 </h3>
                                 <p className="organization-page-card-title">
-                                    Founder & CEO
+                                    Co-Founder & Director
                                 </p>
                                 <p className="organization-page-card-text">
-                                    A student chained to the demands of the
-                                    International Baccalaureate Diploma
-                                    Programme, Evan Li finds refuge in his
-                                    musical endeavours.{' '}
                                 </p>
                             </div>
                             <div className="organization-page-card">
@@ -89,19 +85,50 @@ export default function OrganizationPage() {
                                     />
                                 </div>
                                 <h3 className="organization-page-card-name">
-                                    Evan Li
+                                    Maegan Cheung
                                 </h3>
                                 <p className="organization-page-card-title">
-                                    Founder & CEO
+                                    Co-Founder & Director
                                 </p>
                                 <p className="organization-page-card-text">
-                                    A student chained to the demands of the
-                                    International Baccalaureate Diploma
-                                    Programme, Evan Li finds refuge in his
-                                    musical endeavours.{' '}
+                                </p>
+                            </div>
+                            <div className="organization-page-card">
+                                <div className="organization-page-card-image-container">
+                                    <img
+                                        src="/assets/dog.webp"
+                                        alt="A person playing a guitar"
+                                        className="organization-page-card-image"
+                                    />
+                                </div>
+                                <h3 className="organization-page-card-name">
+                                    James Zhang
+                                </h3>
+                                <p className="organization-page-card-title">
+                                    Co-Founder & Director
+                                </p>
+                                <p className="organization-page-card-text">
+                                </p>
+                            </div>
+                            <div className="organization-page-card">
+                                <div className="organization-page-card-image-container">
+                                    <img
+                                        src="/assets/dog.webp"
+                                        alt="A person playing a guitar"
+                                        className="organization-page-card-image"
+                                    />
+                                </div>
+                                <h3 className="organization-page-card-name">
+                                    Eric Zuo
+                                </h3>
+                                <p className="organization-page-card-title">
+                                    Co-Founder & Director
+                                </p>
+                                <p className="organization-page-card-text">
                                 </p>
                             </div>
                         </div>
+                        
                     </div>
                 </div>
                 <Footer />

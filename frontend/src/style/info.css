@@ -116,6 +116,10 @@
 
 .info-page-section-two-video-container {
     margin-top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .info-page-section-two-video {
