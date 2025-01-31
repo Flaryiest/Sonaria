@@ -68,7 +68,7 @@ export default function OrganizationPage() {
                                     />
                                 </div>
                                 <h3 className="organization-page-card-name">
-                                    Vivian
+                                    Vivian Wei
                                 </h3>
                                 <p className="organization-page-card-title">
                                     Co-Founder & Director
