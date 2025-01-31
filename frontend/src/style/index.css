@@ -152,6 +152,7 @@ body {
     min-height: 100dvh;
     overflow-x: hidden;
     overflow-y: scroll;
+    max-width: 100dvw;
 }
 
 #root {
