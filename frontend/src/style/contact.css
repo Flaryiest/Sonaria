@@ -133,3 +133,12 @@ textarea:focus {
         max-width: 90%;
     }
 }
+
+@media (max-width: 1000px) {
+    .contact-form-group #first-name {
+        width: 90%;
+    }
+    .contact-form-group #last-name {
+        width: 90%;
+    }
+}
