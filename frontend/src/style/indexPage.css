@@ -1,9 +1,11 @@
 .index-page-container {
     width: 100%;
+    max-width: 100dvw;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow-x: hidden;
 }
 
 .index-page {
@@ -34,6 +36,7 @@
     padding-top: 20px;
     padding-bottom: 10px;
     width: 1024px;
+    max-width: 100dvw;
 }
 
 .grid {
