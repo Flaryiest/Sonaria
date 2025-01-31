@@ -71,6 +71,7 @@ export default function IndexPage() {
                                 <img
                                     src="/assets/piano.webp"
                                     className="index-page-section-one-image"
+                                    alt="isometric piano image"
                                 ></img>
                             </Fade>
                         </Slide>
@@ -117,6 +118,7 @@ export default function IndexPage() {
                                         <img
                                             src="/assets/room.webp"
                                             className="index-page-section-two-card-image"
+                                            alt="isometric music classroom image"
                                         />
                                     </div>
                                     <h3 className="index-page-section-two-card-header">
@@ -140,6 +142,7 @@ export default function IndexPage() {
                                         <img
                                             src="/assets/room.webp"
                                             className="index-page-section-two-card-image"
+                                            alt="isometric music classroom image"
                                         />
                                     </div>
                                     <h3 className="index-page-section-two-card-header">
@@ -164,6 +167,7 @@ export default function IndexPage() {
                                         <img
                                             src="/assets/room.webp"
                                             className="index-page-section-two-card-image"
+                                            alt="isometric music classroom image"
                                         />
                                     </div>
                                     <h3 className="index-page-section-two-card-header">
@@ -186,6 +190,7 @@ export default function IndexPage() {
                                         <img
                                             src="/assets/room.webp"
                                             className="index-page-section-two-card-image"
+                                            alt="isometric music classroom image"
                                         />
                                     </div>
                                     <h3 className="index-page-section-two-card-header">
@@ -318,7 +323,7 @@ export default function IndexPage() {
                                 className="index-page-section-four-call-to-action-link"
                             >
                                 <span className="bold">Join Us</span>{' '}
-                                <img src="/assets/arrow-up-right.svg"></img>
+                                <img src="/assets/arrow-up-right.svg" alt="arrow link"></img>
                             </Link>
                         </div>
                     </div>
