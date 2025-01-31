@@ -30,6 +30,7 @@
     background-size: 60px 60px;
     background-position: top left;
     z-index: 2;
+    max-width: 100dvw;
 }
 
 .classes-grid-two {
@@ -46,6 +47,7 @@
     background-size: 10px 10px;
     background-position: top left;
     z-index: 1;
+    max-width: 100dvw;
 }
 
 .glow {

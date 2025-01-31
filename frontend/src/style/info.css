@@ -21,6 +21,7 @@
 .info-page-header-container {
     width: 1024px;
     height: 440px;
+    max-width: 100dvw;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -61,6 +62,7 @@
     background-size: 80px 80px;
     background-position: center center;
     z-index: 1;
+    max-width: 100dvw;
 }
 
 .info-page-header {

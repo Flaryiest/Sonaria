@@ -15,7 +15,7 @@
     justify-content: space-between;
     align-items: center;
     min-height: 56px;
-    max-width: 1024px;
+    max-width: min(100dvw, 1024px);
     width: 100%;
     padding: 2px 0px;
     background-color: rgba(255, 255, 255, 0.5);
@@ -150,6 +150,7 @@
         left: -20px;
         padding-left: 20px;
         width: 100dvw;
+        max-width: 100dvw;
         background-color: rgba(255, 255, 255, 1);
         backdrop-filter: blur(10px);
         padding: 1rem;
