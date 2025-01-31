@@ -48,6 +48,7 @@
 .contact-form-row {
     display: flex;
     gap: 15px;
+    max-width: 100dvw;
 }
 
 .contact-form-group {
