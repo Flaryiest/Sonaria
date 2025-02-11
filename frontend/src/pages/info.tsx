@@ -36,10 +36,10 @@ export default function InfoPage() {
                 </div>
                 <div className="info-page-section-two">
                     <h2 className="info-page-section-two-header">
-                        What is Sonaria?
+                        What is Elvaria?
                     </h2>
                     <p className="info-page-section-two-text">
-                        Sonaria is a not for profit music foundation. We provide
+                        Elvaria is a not for profit music foundation. We provide
                         one-on-one and group lessons to less fortunate
                         individuals who are unable to afford paid classes. With
                         over 12 qualified teachers, we aim to make a large
@@ -131,7 +131,7 @@ export default function InfoPage() {
                                             Community
                                         </h3>
                                         <p className="info-page-section-four-card-text">
-                                            At Sonaria, we believe in fostering
+                                            At Elvaria, we believe in fostering
                                             a strong sense of community among
                                             our students. We encourage
                                             collaboration and support, creating

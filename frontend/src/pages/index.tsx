@@ -26,7 +26,7 @@ export default function IndexPage() {
                                 triggerOnce
                             >
                                 <p className="index-page-section-one-text">
-                                    Sonaria is a registered non-profit
+                                    Elvaria is a registered non-profit
                                     organization striving to make musical
                                     education meet with accessibility.
                                 </p>
@@ -105,7 +105,7 @@ export default function IndexPage() {
                                 in Calgary.
                             </h2>
                             <p className="index-page-section-two-text">
-                                Sonaria is more than just than just an
+                                Elvaria is more than just than just an
                                 educational organization. We help support the
                                 communities around us with a rich and welcoming
                                 experience.
@@ -125,7 +125,7 @@ export default function IndexPage() {
                                         Blending Music with Education
                                     </h3>
                                     <p className="index-page-section-two-card-text">
-                                        At Sonaria, we blend music with
+                                        At Elvaria, we blend music with
                                         education in dynamic ways to create a
                                         unique learning experience. Our approach
                                         integrates musical concepts with
@@ -220,7 +220,7 @@ export default function IndexPage() {
                                 Impact at a glance
                             </h2>
                             <h3 className="index-page-section-three-text">
-                                Sonaria has been able to aid many in their
+                                Elvaria has been able to aid many in their
                                 musical journey.
                             </h3>
                             <div className="index-page-section-three-content-container">
@@ -272,7 +272,7 @@ export default function IndexPage() {
                                         Piano
                                     </div>
                                     <p className="index-page-section-four-card-text">
-                                        "My experience at Sonaria has been
+                                        "My experience at Elvaria has been
                                         exceptional. The instructors are{' '}
                                         <span className="bold black">
                                             highly skilled and dedicated
@@ -280,7 +280,7 @@ export default function IndexPage() {
                                         to their craft. Through their guidance,
                                         I have significantly improved my piano
                                         skills and developed a deeper
-                                        appreciation for music. Sonaria's
+                                        appreciation for music. Elvaria's
                                         approach to music education is both
                                         innovative and effective."
                                     </p>
@@ -298,12 +298,12 @@ export default function IndexPage() {
                                         Piano
                                     </div>
                                     <p className="index-page-section-four-card-text">
-                                        "Sonaria has provided me with an
+                                        "Elvaria has provided me with an
                                         outstanding music education experience.
                                         The free classes have allowed me to
                                         pursue my passion for music without
                                         financial burden. I am grateful for the
-                                        opportunities Sonaria has given me."
+                                        opportunities Elvaria has given me."
                                     </p>
                                     <div className="index-page-section-four-card-info">
                                         <p className="index-page-section-four-card-name">

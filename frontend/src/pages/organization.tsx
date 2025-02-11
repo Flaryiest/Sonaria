@@ -19,7 +19,7 @@ export default function OrganizationPage() {
                             triggerOnce
                         >
                             <h1 className="organization-page-header">
-                                We are the people who make up Sonaria
+                                We are the people who make up Elvaria
                             </h1>
                             <p className="organization-page-sub-header">
                                 Our philosophy is simple; hire great people and

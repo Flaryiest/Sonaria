@@ -7,12 +7,12 @@ export default function Footer() {
                 <div className="footer-logo">
                     <div className="footer-nav">
                         <Link to="/" className="footer-logo-text">
-                            Sonaria
+                            Elvaria
                         </Link>
                     </div>
                 </div>
                 <div className="footer-copyright">
-                    © 2025 Sonaria Music Foundation - Website by Eric Zuo
+                    © 2025 Elvaria Music Foundation - Website by Eric Zuo
                 </div>
             </div>
         </div>
