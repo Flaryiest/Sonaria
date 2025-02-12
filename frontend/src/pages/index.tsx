@@ -41,16 +41,11 @@ export default function IndexPage() {
                             >
                                 <div className="index-page-section-one-buttons">
                                     <Link
-                                        to="/classes"
+                                        to="/signup"
                                         className="index-page-section-one-events-button"
                                     >
-                                        Events
-                                    </Link>
-                                    <Link
-                                        to="/contact"
-                                        className="index-page-section-one-donate-button"
-                                    >
-                                        Contact
+                                        Sign Up 
+                                        <img src="/assets/arrow-up-right.svg" className="white" alt="arrow link"></img>
                                     </Link>
                                 </div>
                             </Slide>

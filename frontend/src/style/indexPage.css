@@ -95,13 +95,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 36px;
+    height: 40px;
     box-sizing: border-box;
     padding: 3px 18px;
     border-width: 0px;
     border-style: solid;
     border-radius: 8px;
-    font-size: 0.95em;
+    font-size: 1.2em;
     font-weight: 500;
     background-color: black;
     color: white;
@@ -551,6 +551,16 @@
     justify-content: center;
     align-items: center;
     gap: 4px;
+}
+
+.white {
+    color: white;
+    background-color: white;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 16px;
 }
 
 @media (max-width: 1024px) {
