@@ -22,7 +22,7 @@ export default function Navbar() {
             <div className={`navbar ${menuOpen ? 'open' : ''}`}>
                 <div className="navbar-logo">
                     <Link to="/" className="navbar-logo-text">
-                        Elvaria
+                        <img src="/assets/elvaria.png" alt="Elvaria" />
                     </Link>
                 </div>
                 <div

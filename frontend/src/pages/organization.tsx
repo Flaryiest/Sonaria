@@ -110,23 +110,7 @@ export default function OrganizationPage() {
                                 <p className="organization-page-card-text">
                                 </p>
                             </div>
-                            <div className="organization-page-card">
-                                <div className="organization-page-card-image-container">
-                                    <img
-                                        src="/assets/dog.webp"
-                                        alt="A person playing a guitar"
-                                        className="organization-page-card-image"
-                                    />
-                                </div>
-                                <h3 className="organization-page-card-name">
-                                    Eric Zuo
-                                </h3>
-                                <p className="organization-page-card-title">
-                                    Co-Founder & Director
-                                </p>
-                                <p className="organization-page-card-text">
-                                </p>
-                            </div>
+
                         </div>
                         
                     </div>

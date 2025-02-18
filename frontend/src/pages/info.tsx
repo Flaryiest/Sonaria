@@ -10,8 +10,7 @@ export default function InfoPage() {
                     <div className="info-page-grid"></div>
                     <div className="info-page-header-container">
                         <Fade className="info-page-header">
-                            Committed to advancing education by conducting high
-                            quality courses.
+                            Harmony for All, Inspiring Virtuosity in Musical Expression
                         </Fade>
                         <Fade className="info-page-sub-header">
                             We're a non-profit organization striving to help
